@@ -1,0 +1,10 @@
+/* Daniella's Salon & Spa overrides */
+.hero2{align-items:center}
+.hero2__grid{display:grid;gap:2rem;align-items:center;width:100%}
+.hero2 .hero__in{padding-bottom:1rem}
+.hero2__cards{display:grid;grid-template-columns:repeat(3,1fr);gap:.55rem;max-width:520px;padding-bottom:2rem}
+.hero2__cards img{width:100%;aspect-ratio:3/4;object-fit:cover;border:1px solid rgba(255,255,255,.22);display:block}
+.hero2__cards img:nth-child(2){transform:translateY(1.4rem)}
+.hero2 .btn svg{width:18px;height:18px;margin-right:.4rem;vertical-align:-3px}
+@media(min-width:860px){.hero2__grid{grid-template-columns:1.1fr .9fr}.hero2__cards{justify-self:end}}
+.stats__grid--3{grid-template-columns:repeat(3,1fr)}
